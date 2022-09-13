@@ -2,10 +2,7 @@ package com.example.FXTrading.entity;
 
 import org.springframework.stereotype.Component;
 
-//public class Book {
 
-//}
-//package com.fxTrading.entity;
 @Component
 public class Book {
 	private String customerName;
