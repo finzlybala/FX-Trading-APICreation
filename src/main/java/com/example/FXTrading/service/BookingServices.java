@@ -1,11 +1,7 @@
 package com.example.FXTrading.service;
-
-
-	import java.util.ArrayList;
-
+import java.util.ArrayList;
 import com.example.FXTrading.entity.Book;
 import com.example.FXTrading.entity.Print;
-
 import org.springframework.stereotype.Repository;
 
 	@Repository
@@ -18,9 +14,6 @@ import org.springframework.stereotype.Repository;
 		public ArrayList<Print> printTrade(){
 			return data;
 		}
-		
-
-		
 		public String booking(Book book, String bookingconfirmation) {
 	     if(book.getCustomerName().matches("^[a-zA-Z\\s\\.]*$")) {
 	    	 if(book.getCurrencyPair().equalsIgnoreCase("USDINR")) {
@@ -60,7 +53,6 @@ import org.springframework.stereotype.Repository;
 	    	 }
 		
 		}
-		
 }
 
 
