@@ -1,13 +1,8 @@
 package com.example.FXTrading.controller;
-
-
-
 import java.util.ArrayList;
-
 import com.example.FXTrading.entity.Book;
 import com.example.FXTrading.entity.Print;
 import com.example.FXTrading.service.BookingServices;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -36,7 +31,4 @@ public class FXTradingController {
 		return book;
 	}
 
-	
-	} 
-
-
+} 
