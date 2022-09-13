@@ -1,10 +1,4 @@
 package com.example.FXTrading.entity;
-
-//public class Print {
-
-//}
-//package com.fxTrading.entity;
-
 public class Print {
 	private int tradeNo;
 	private String currencyPair;
@@ -66,14 +60,5 @@ public class Print {
 		return "Print [tradeNo=" + tradeNo + ", currencyPair=" + currencyPair + ", customerName=" + customerName
 				+ ", amount=" + amount + ", rate=" + rate + "]";
 	}
-
-	public static void addtrading(int count, String currencyPair2, String customerName2, double amount2, double iNR) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	
-	
-	
 }
 	
